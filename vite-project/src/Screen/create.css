@@ -1,0 +1,39 @@
+.createForm {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.createCard {
+  background: linear-gradient(135deg, #6a3093, #a044ff);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  width: 100%;
+  max-width: 500px;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.inputField {
+  margin-bottom: 1.5rem !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.createBtn {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.createBtn:hover {
+  opacity: 0.9;
+}

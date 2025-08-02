@@ -1,0 +1,23 @@
+/* Purple gradient background for full screen */
+.dashRoot {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #6a3093 0%, #a044ff 100%);
+  color: #fff;
+}
+
+/* Gradient button with subtle hover */
+.primaryBtn {
+  float: right;
+  margin-top: 1rem;
+  background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.75rem;
+  transition: opacity 0.2s ease;
+}
+
+.primaryBtn:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,39 @@
+.editForm {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.editCard {
+  background: linear-gradient(135deg, #6a3093, #a044ff);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  width: 100%;
+  max-width: 500px;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.editInput {
+  margin-bottom: 1.5rem !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.editBtn {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.editBtn:hover {
+  opacity: 0.9;
+}
